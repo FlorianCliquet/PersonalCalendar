@@ -24,14 +24,15 @@ git clone https://github.com/yourusername/PersonalCalendar.git
 cd PersonalCalendar
 ```
 ### 2. Install required packages
-```pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
 ```
 ### 3. Set up Google API credentials
 Follow the steps to create OAuth2 credentials and download the credentials.json file from the Google Developer Console. Save this file in the root directory of the project.
 
 ### 4. Create a .env file
 Create a .env file in the root directory with the following variables:
-```
+```env
 GOOGLECALENDAR_API = your/google/api
 JSON_FOLDER=./json/
 TOKEN_PATH=path/to/your/tokens
@@ -43,7 +44,8 @@ Place your JSON files in the json folder. These files should contain your daily 
 
 Example JSON Files
 Daily Schedule JSON (e.g., default_day.json, morning_shift.json, afternoon_shift.json)
-```{
+```json
+{
     "activities": [
         {
             "name": "Activity1",
@@ -60,7 +62,8 @@ Daily Schedule JSON (e.g., default_day.json, morning_shift.json, afternoon_shift
 }
 ```
 Calendar JSON (calendar.json)
-```[
+```json
+[
     {
         "date": "2024-06-01",
         "type": "morning_shift"
@@ -73,7 +76,8 @@ Calendar JSON (calendar.json)
 ]
 ```
 ### 6. Run the Script
-```python main.py
+```bash
+python main.py
 ```
 
 ## Usage
@@ -81,7 +85,8 @@ When you run the script for the first time, it will prompt you to configure anal
 
 ### Analytics Configuration
 The script generates an analytics_config.json file based on your inputs. Here is an example:
-```{
+```json
+{
     "Activity1": {
         "name": "Activity1",
         "wage": 15.0
@@ -92,7 +97,8 @@ The script generates an analytics_config.json file based on your inputs. Here is
 }
 ```
 ## Output
-```============================================================
+```yaml
+============================================================
 Processing entry 1 - Date: 2024-06-01
 ============================================================
   * Creating events for 2024-06-01, this is a morning_shift day...
