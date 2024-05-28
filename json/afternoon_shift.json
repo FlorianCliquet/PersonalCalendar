@@ -1,0 +1,34 @@
+{
+    "activities": [
+        {
+            "name": "Salle",
+            "start_time": "06:00",
+            "end_time": "07:30"
+        },
+        {
+            "name": "Etirement",
+            "start_time": "07:30",
+            "end_time": "08:00"
+        },
+        {
+            "name": "ESIR RoadMap",
+            "start_time": "08:00",
+            "end_time": "10:00"
+        },
+        {
+            "name": "PROJECTS RoadMap",
+            "start_time": "10:15",
+            "end_time": "12:15"
+        },
+        {
+            "name": "Boulangerie",
+            "start_time": "13:00",
+            "end_time": "19:15"
+        },
+        {
+            "name": "Lecture",
+            "start_time": "19:45",
+            "end_time": "21:45"
+        }
+    ]
+}

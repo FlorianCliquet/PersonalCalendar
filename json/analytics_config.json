@@ -1,0 +1,18 @@
+{
+    "Salle": {
+        "name": "Salle"
+    },
+    "ESIR RoadMap": {
+        "name": "ESIR RoadMap"
+    },
+    "PROJECTS RoadMap": {
+        "name": "PROJECTS RoadMap"
+    },
+    "Boulangerie": {
+        "name": "Boulangerie",
+        "wage": 11.5
+    },
+    "Lecture": {
+        "name": "Lecture"
+    }
+}
