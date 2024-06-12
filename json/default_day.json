@@ -1,9 +1,34 @@
 {
     "activities": [
         {
-            "name": "Branlette",
-            "start_time": "00:00",
-            "end_time": "23:59"
+            "name": "Salle",
+            "start_time": "06:00",
+            "end_time": "07:30"
+        },
+        {
+            "name": "Etirement",
+            "start_time": "08:00",
+            "end_time": "08:30"
+        },
+        {
+            "name": "ESIR RoadMap",
+            "start_time": "8:45",
+            "end_time": "11:45"
+        },
+        {
+            "name": "PROJECTS RoadMap",
+            "start_time": "13:00",
+            "end_time": "16:00"
+        },
+        {
+            "name": "Lecture",
+            "start_time": "16:15",
+            "end_time": "18:15"
+        },
+        {
+            "name": "Relecture Ancien cours",
+            "start_time": "19:45",
+            "end_time": "21:45"
         }
     ]
 }

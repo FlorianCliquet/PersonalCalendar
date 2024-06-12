@@ -1,13 +1,8 @@
 {
     "activities": [
         {
-            "name": "Salle",
-            "start_time": "06:00",
-            "end_time": "07:30"
-        },
-        {
             "name": "Boulangerie",
-            "start_time": "08:00",
+            "start_time": "06:30",
             "end_time": "13:15"
         },
         {
@@ -21,7 +16,7 @@
             "end_time": "18:15"
         },
         {
-            "name": "Etirement",
+            "name": "Etirement / Muscu maison",
             "start_time": "18:30",
             "end_time": "19:00"
         },

@@ -10,7 +10,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 # Load environment variables
-dotenv_path = '.env'
+dotenv_path = './../ConfigShit/PersonalCalendar/.env'
 load_dotenv(dotenv_path)
 
 # Set up environment variables

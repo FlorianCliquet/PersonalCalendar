@@ -20,7 +20,7 @@ PersonalCalendar is a Python script that automates the creation of Google Calend
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/PersonalCalendar.git
+git clone https://github.com/FlorianCliquet/PersonalCalendar.git
 cd PersonalCalendar
 ```
 ### 2. Install required packages
